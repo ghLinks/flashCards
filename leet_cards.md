@@ -1,375 +1,392 @@
 <!-- flashcard 1 -->
 
-## Front
+## Card
 
-Sliding Window Pattern
+Sliding Window UseCases
 
-## Back
+%
 
-- Efficiently process subarrays or substrings within linear data structures.  
-- Adjust window size dynamically to find desired subarray properties.  
+- Finding subarrays with specific properties (e.g., max sum, exact length).  
+- Problems like "Longest Substring Without Repeating Characters."  
 
 <!-- end flashcard 1 -->
 
 <!-- flashcard 2 -->
 
-## Front
+## Card
 
-Identifying Sliding Window Problems
+Sliding Window Implementation
 
-## Back
+%
 
-- Look for problems involving contiguous subarrays or substrings.  
-- Common in scenarios asking for longest, shortest, or specific sum subarrays.  
+- Use two pointers to define a window.  
+- Adjust window size dynamically based on constraints.  
 
 <!-- end flashcard 2 -->
 
+
 <!-- flashcard 3 -->
 
-## Front
+## Card
 
-Two Pointers Pattern
+Two Pointers UseCases
 
-## Back
+%
 
-- Use two pointers to iterate through data structures for efficient comparisons.  
-- Ideal for finding pairs or subarrays meeting specific criteria.  
+- Searching pairs in sorted arrays (e.g., "Two Sum II").  
+- Problems like "3Sum" or "Container with Most Water."  
 
 <!-- end flashcard 3 -->
 
 <!-- flashcard 4 -->
 
-## Front
+## Card
 
-Identifying Two Pointers Problems
+Two Pointers Implementation
 
-## Back
+%
 
-- Problems involving sorted arrays or linked lists.  
-- Tasks requiring finding pairs, triplets, or subarrays with certain sums.  
+- Initialize pointers at different positions (start/end or same side).  
+- Move pointers based on conditions (e.g., sum, difference).  
 
 <!-- end flashcard 4 -->
 
+
 <!-- flashcard 5 -->
 
-## Front
+## Card
 
-Fast and Slow Pointers Pattern
+Fast and Slow Pointers UseCases
 
-## Back
+%
 
-- Utilize two pointers moving at different speeds to detect cycles.  
-- Commonly used in cyclic linked lists or arrays.  
+- Detecting cycles in linked lists or arrays.  
+- Finding the middle of a linked list.  
 
 <!-- end flashcard 5 -->
 
 <!-- flashcard 6 -->
 
-## Front
+## Card
 
-Identifying Fast and Slow Pointers Problems
+Fast and Slow Pointers Implementation
 
-## Back
+%
 
-- Problems involving loops in linked lists or arrays.  
-- Scenarios requiring detection of cycles or finding the middle element.  
+- Use two pointers; one moves 1 step, the other 2 steps.  
+- Check for overlap to detect cycles or stop at the middle.  
 
 <!-- end flashcard 6 -->
 
+
 <!-- flashcard 7 -->
 
-## Front
+## Card
 
-Merge Intervals Pattern
+Merge Intervals UseCases
 
-## Back
+%
 
-- Efficiently handle overlapping intervals by merging them.  
-- Sort intervals and merge those that overlap.  
+- Merging overlapping intervals (e.g., meeting rooms).  
+- Problems like "Insert Interval" or "Meeting Rooms II."  
 
 <!-- end flashcard 7 -->
 
 <!-- flashcard 8 -->
 
-## Front
+## Card
 
-Identifying Merge Intervals Problems
+Merge Intervals Implementation
 
-## Back
+%
 
-- Problems involving intervals, such as meeting times or ranges.  
-- Tasks requiring merging or inserting intervals.  
+- Sort intervals by start time.  
+- Merge intervals when they overlap by adjusting the end time.  
 
 <!-- end flashcard 8 -->
 
+
 <!-- flashcard 9 -->
 
-## Front
+## Card
 
-Cyclic Sort Pattern
+Cyclic Sort UseCases
 
-## Back
+%
 
-- Sort numbers when given a range of 1 to 'n' with constant space.  
-- Place each number at its correct index iteratively.  
+- Finding missing, duplicate, or corrupt numbers in a range.  
+- Problems like "Find All Numbers Disappeared in an Array."  
 
 <!-- end flashcard 9 -->
 
 <!-- flashcard 10 -->
 
-## Front
+## Card
 
-Identifying Cyclic Sort Problems
+Cyclic Sort Implementation
 
-## Back
+%
 
-- Problems involving finding missing or duplicate numbers in a range.  
-- Scenarios where numbers are bound within a specific range.  
+- Iterate through array, swapping elements to their correct positions.  
+- Check for misplacements to find duplicates/missing elements.  
 
 <!-- end flashcard 10 -->
 
+
 <!-- flashcard 11 -->
 
-## Front
+## Card
 
-In-place Reversal of Linked List Pattern
+In-place Reversal UseCases
 
-## Back
+%
 
-- Reverse linked list nodes in-place for specific sections.  
-- Modify pointers directly without extra space.  
+- Reversing linked list segments (e.g., reversing between positions).  
+- Problems like "Reverse Linked List II."  
 
 <!-- end flashcard 11 -->
 
 <!-- flashcard 12 -->
 
-## Front
+## Card
 
-Identifying In-place Reversal Problems
+In-place Reversal Implementation
 
-## Back
+%
 
-- Problems requiring reversal of linked list segments.  
-- Tasks involving reordering nodes without extra space.  
+- Reverse pointers between specific positions in the list.  
+- Use a previous node pointer to reconnect reversed parts.  
 
 <!-- end flashcard 12 -->
 
+
 <!-- flashcard 13 -->
 
-## Front
+## Card
 
-Tree BFS Pattern
+Tree BFS UseCases
 
-## Back
+%
 
-- Traverse tree level by level using a queue.  
-- Useful for shortest path and level order traversal.  
+- Level order traversal in binary trees.  
+- Finding the shortest path in unweighted graphs.  
 
 <!-- end flashcard 13 -->
 
 <!-- flashcard 14 -->
 
-## Front
+## Card
 
-Identifying Tree BFS Problems
+Tree BFS Implementation
 
-## Back
+%
 
-- Problems requiring level order traversal of trees.  
-- Scenarios involving shortest path in unweighted trees.  
+- Use a queue to traverse tree levels.  
+- Process nodes level by level while adding children to the queue.  
 
 <!-- end flashcard 14 -->
 
+
 <!-- flashcard 15 -->
 
-## Front
+## Card
 
-Tree DFS Pattern
+Tree DFS UseCases
 
-## Back
+%
 
-- Traverse tree using pre-order, in-order, or post-order methods.  
-- Utilize recursion or stack for traversal.  
+- Exploring all tree paths (e.g., path sum problems).  
+- Problems like "Binary Tree Paths" or "Path Sum II."  
 
 <!-- end flashcard 15 -->
 
 <!-- flashcard 16 -->
 
-## Front
+## Card
 
-Identifying Tree DFS Problems
+Tree DFS Implementation
 
-## Back
+%
 
-- Problems requiring exploration of all tree paths.  
-- Scenarios involving path sums or subtree searches.  
+- Use recursion or a stack for traversal.  
+- Process nodes in pre-order, in-order, or post-order.  
 
 <!-- end flashcard 16 -->
 
+
 <!-- flashcard 17 -->
 
-## Front
+## Card
 
-Two Heaps Pattern
+Two Heaps UseCases
 
-## Back
+%
 
-- Use two heaps to manage median or 'K' largest/smallest elements.  
-- Balance a max-heap and min-heap for efficient retrievals.  
+- Calculating the median of a data stream.  
+- Problems like "Find Median from Data Stream."  
 
 <!-- end flashcard 17 -->
 
 <!-- flashcard 18 -->
 
-## Front
+## Card
 
-Identifying Two Heaps Problems
+Two Heaps Implementation
 
-## Back
+%
 
-- Problems involving continuous median calculations.  
-- Scenarios requiring dynamic insertion and retrieval of 'K' elements.  
+- Maintain a max-heap for lower half and a min-heap for upper half.  
+- Balance heaps to keep size difference <= 1.  
 
 <!-- end flashcard 18 -->
 
+
 <!-- flashcard 19 -->
 
-## Front
+## Card
 
-Subsets Pattern
+Subsets UseCases
 
-## Back
+%
 
-- Generate all subsets or combinations of a set.  
-- Use backtracking or iterative methods to explore possibilities.  
+- Generating all subsets or combinations of a set.  
+- Problems like "Subsets" or "Combination Sum."  
 
 <!-- end flashcard 19 -->
 
 <!-- flashcard 20 -->
 
-## Front
+## Card
 
-Identifying Subsets Problems
+Subsets Implementation
 
-## Back
+%
 
-- Problems requiring generation of power sets or combinations.  
-- Tasks involving exploration of all subset possibilities.  
+- Use backtracking or iterative generation.  
+- For each element, add it to existing subsets to form new ones.  
 
 <!-- end flashcard 20 -->
 
+
 <!-- flashcard 21 -->
 
-## Front
+## Card
 
-Modified Binary Search Pattern
+Modified Binary Search UseCases
 
-## Back
+%
 
-- Apply binary search on sorted arrays with modifications.  
-- Efficiently find elements or conditions in logarithmic time.  
+- Searching in sorted and rotated arrays.  
+- Problems like "Search in Rotated Sorted Array."  
 
 <!-- end flashcard 21 -->
 
 <!-- flashcard 22 -->
 
-## Front
+## Card
 
-Identifying Modified Binary Search Problems
+Modified Binary Search Implementation
 
-## Back
+%
 
-- Problems involving searching in sorted or rotated arrays.  
-- Scenarios requiring efficient element location.  
+- Use binary search with additional conditions for rotations.  
+- Narrow search range based on mid-value comparisons.  
 
 <!-- end flashcard 22 -->
 
 <!-- flashcard 23 -->
 
-## Front
+## Card
 
-Top 'K' Elements Pattern
+Top 'K' Elements UseCases
 
-## Back
+%
 
-- Use heaps to find top 'K' largest or smallest elements.  
-- Maintain a heap of size 'K' for efficient retrievals.  
+- Finding 'K' largest/smallest elements in a dataset.  
+- Problems like "Kth Largest Element in an Array."  
 
 <!-- end flashcard 23 -->
 
 <!-- flashcard 24 -->
 
-## Front
+## Card
 
-Identifying Top 'K' Elements Problems
+Top 'K' Elements Implementation
 
-## Back
+%
 
-- Problems requiring retrieval of top or bottom 'K' elements.  
-- Scenarios involving frequency counts or largest/smallest values.  
+- Use a heap to maintain 'K' elements.  
+- Push new elements and pop excess to keep size fixed.  
 
 <!-- end flashcard 24 -->
 
 <!-- flashcard 25 -->
 
-## Front
+## Card
 
-K-way Merge Pattern
+K-way Merge UseCases
 
-## Back
+%
 
-- Merge 'K' sorted arrays or lists efficiently.  
-- Use a min-heap to keep track of smallest elements.  
+- Merging multiple sorted arrays or lists.  
+- Problems like "Merge K Sorted Lists."  
 
 <!-- end flashcard 25 -->
 
 <!-- flashcard 26 -->
 
-## Front
+## Card
 
-Identifying K-way Merge Problems
+K-way Merge Implementation
 
-## Back
+%
 
-- Problems involving merging multiple sorted sequences.  
-- Scenarios requiring efficient combination of sorted data.  
+- Use a min-heap to track smallest elements from each list.  
+- Extract the smallest and add the next element from that list.  
 
 <!-- end flashcard 26 -->
 
 <!-- flashcard 27 -->
 
-## Front
+## Card
 
-Topological Sort Pattern
+Topological Sort UseCases
 
-## Back
+%
 
-- Order elements based on dependencies using directed graphs.  
-- Utilize DFS or Kahn's algorithm for sorting.  
+- The problem will deal with graphs that have no directed cycles
+- If you’re asked to update all objects in a sorted order
+- If you have a class of objects that follow a particular order
+
+- Problems featuring the Topological Sort pattern:
+
+- Task scheduling (medium)
+- Minimum height of a tree (hard)
 
 <!-- end flashcard 27 -->
 
 <!-- flashcard 28 -->
 
-## Front
+## Card
 
-Identifying Topological Sort Problems
+Topological Sort Implementation
 
-## Back
-
-- Problems involving task scheduling with dependencies.  
-- Scenarios requiring linear ordering of dependent tasks.  
+%
+- first get count of incoming links to all nodes. Start with nodes with 0 incoming links.
+- Use DFS or Kahn's algorithm to order tasks.  
+- Track in-degree or visited nodes to find valid order.  
 
 <!-- end flashcard 28 -->
 
 
+
 <!-- flashcard 29 -->
 
-## Front
+## Card
 
 Union Find UseCases
 
-## Back
+%
 
 - Detect cycles in graphs (e.g., "Graph Valid Tree")  
 - Find connected components (e.g., "Number of Provinces")  
@@ -379,11 +396,11 @@ Union Find UseCases
 
 <!-- flashcard 30 -->
 
-## Front
+## Card
 
 Union Find Implementation
 
-## Back
+%
 
 - Core idea: Track and merge disjoint sets efficiently  
 - Use a parent array to represent the forest  

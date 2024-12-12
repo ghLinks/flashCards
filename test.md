@@ -1,10 +1,10 @@
 <!-- flashcard 1 -->
 
-## Front
+## Card
 
 What is the capital of France?
 
-## Back
+%
 
 Paris
 
@@ -12,11 +12,11 @@ Paris
 
 <!-- flashcard 2 -->
 
-## Front
+## Card
 
 What is the largest planet in our solar system?
 
-## Back
+%
 
 Jupiter
 
