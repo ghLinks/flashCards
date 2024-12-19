@@ -408,3 +408,57 @@ Union Find Implementation
 - `union(x, y)`: Link roots by rank or size  
 
 <!-- end flashcard 30 -->
+
+<!-- flashcard 31 -->
+
+## Card
+
+Monotonic Stack UseCases
+
+%
+
+- Problems involving finding the next/previous greater or smaller element.  
+- Examples: "Daily Temperatures," "Largest Rectangle in Histogram."  
+
+<!-- end flashcard 31 -->
+
+<!-- flashcard 32 -->
+
+## Card
+
+Monotonic Stack Implementation
+
+%
+
+- Use a stack to maintain a monotonic sequence (increasing or decreasing).  
+- Push elements, and pop when conditions are violated.  
+
+<!-- end flashcard 32 -->
+
+<!-- flashcard 33 -->
+
+## Card
+
+Trie UseCases
+
+%
+
+- Efficient prefix searching (e.g., autocomplete systems).  
+- Problems like "Implement Trie" or "Word Search II."  
+
+<!-- end flashcard 33 -->
+
+<!-- flashcard 34 -->
+
+## Card
+
+Trie Implementation
+
+%
+
+- Use a tree structure where each node represents a character.  
+- Insert words by adding nodes for each character.  
+- Mark the end of a word with a boolean flag.  
+
+<!-- end flashcard 34 -->
+
